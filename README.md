@@ -21,3 +21,26 @@ cd /MyTeaPotDemo
 // Assembled .apk is located here
 /MyTeaPotDemo/app/build/outputs/apk/app-release-unsigned.apk
 ```
+Contents Of .apk
+----------------
+```
+assets/Shaders/ShaderPlain.fsh
+assets/Shaders/VS_ShaderPlain.vsh
+res/layout/activity_my.xml
+res/layout/widgets.xml
+res/menu/my.xml
+AndroidManifest.xml
+resources.arsc
+res/drawable-hdpi-v4/ic_launcher.png
+res/drawable-mdpi-v4/ic_launcher.png
+res/drawable-xhdpi-v4/ic_launcher.png
+res/drawable-xxhdpi-v4/ic_launcher.png
+classes.dex
+lib/arm64-v8a/libTeapotNativeActivity.so
+lib/armeabi/libTeapotNativeActivity.so
+lib/armeabi-v7a/libTeapotNativeActivity.so
+lib/mips/libTeapotNativeActivity.so
+lib/mips64/libTeapotNativeActivity.so
+lib/x86/libTeapotNativeActivity.so
+lib/x86_64/libTeapotNativeActivity.so
+```
