@@ -1,9 +1,11 @@
-package com.example.bleege.myteapotdemo;
+package com.sample;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.bleege.myteapotdemo.R;
 
 
 public class MyActivity extends Activity {

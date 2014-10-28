@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.bleege.myteapotdemo;
+package com.sample;
 
 import android.app.NativeActivity;
 import android.os.Bundle;
@@ -26,6 +26,8 @@ import android.view.WindowManager.LayoutParams;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
+
+import com.example.bleege.myteapotdemo.R;
 
 public class TeapotNativeActivity extends NativeActivity {
     @Override

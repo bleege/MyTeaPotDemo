@@ -4,12 +4,21 @@ android {
     compileSdkVersion 21
     buildToolsVersion "20.0.0"
 
+    //disable automatic ndk-build call
+//    sourceSets.main.jni.srcDirs = []
+
     defaultConfig {
         applicationId "com.example.bleege.myteapotdemo"
         minSdkVersion 15
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
+
+//        ndk {
+//            moduleName "TeapotNativeActivity"
+//            ldLibs  "-llog -landroid -lEGL -lGLESv2"
+//            stl "cpufeatures android_native_app_glue ndk_helper"
+//        }
     }
     buildTypes {
         release {

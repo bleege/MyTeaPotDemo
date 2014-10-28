@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.bleege.myteapotdemo;
+package com.sample;
 
 import javax.microedition.khronos.opengles.GL10;
 

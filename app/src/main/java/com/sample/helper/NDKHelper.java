@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.bleege.myteapotdemo.helper;
+package com.sample.helper;
 
 import java.io.File;
 import java.io.FileInputStream;
