@@ -7,7 +7,7 @@ Native Code Compilation
 -----------------------
 ```bash
 cd NDK_HOME/samples/Teapot
-NDK_HOME/ndk-build'
+NDK_HOME/ndk-build
 cd libs
 cp -Rp * /MyTeaPotDemo/app/src/main/jniLibs
 ```
